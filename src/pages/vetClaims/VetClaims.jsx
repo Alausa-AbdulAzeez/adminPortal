@@ -155,19 +155,20 @@ const VetClaims = () => {
 
   return (
     <div className='vetClaimsMain'>
-      <Topbar title='Submitted Claims' />
+      <Topbar title='Submitted Piles' />
       <div className='vetClaimsContentWrapper'>
-        <Accordion sx={{ width: 700, marginBottom: 5 }}>
+        <Accordion sx={{ width: 900, marginBottom: 5 }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls='panel1a-content'
             id='panel1a-header'
           >
-            <Typography>Filter Claims</Typography>
+            <Typography>Filter Piles</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <div className='filterWrapper'>
-              <NonAsyncSelect />
+              <NonAsyncSelect title='Filter by status' />
+              <NonAsyncSelect title='Filter by claim type' />
               <Asynchronous />
               <div className='yearPickerWrapper'>
                 <DatePicker

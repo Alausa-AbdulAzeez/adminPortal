@@ -3,7 +3,7 @@ import Box from '@mui/material/Box'
 import TextField from '@mui/material/TextField'
 import Autocomplete from '@mui/material/Autocomplete'
 
-export default function NonAsyncSelect() {
+export default function NonAsyncSelect(props) {
   return (
     <Autocomplete
       id='country-select-demo'
@@ -30,7 +30,7 @@ export default function NonAsyncSelect() {
       renderInput={(params) => (
         <TextField
           {...params}
-          label='Filter by status'
+          label={props?.title}
           inputProps={{
             ...params.inputProps,
             autoComplete: 'new-password', // disable autocomplete and autofill
