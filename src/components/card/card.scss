@@ -1,0 +1,142 @@
+.cardContainer {
+  display: flex;
+  min-width: 300px;
+  max-height: 120px;
+  min-height: 120px;
+  flex: 1;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 400px;
+  cursor: pointer;
+  box-shadow: 0 4px 5px rgb(0 0 0 / 6%);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 6%);
+  gap: 15px;
+  transition: all 0.15s ease-in-out;
+  padding-left: 40px;
+
+  &:hover {
+    transform: scale(1.015);
+  }
+
+  .cardTextsWrapper {
+    .cardBigText {
+      font-weight: 500;
+      color: rgb(1, 42, 68);
+    }
+
+    .cardSmallText {
+      font-size: smaller;
+      color: rgba(136, 198, 252, 0.564);
+      font-weight: bold;
+    }
+  }
+}
+
+// .cardContainer {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(64, 16, 223);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(64, 16, 223, 0.441);
+//     }
+//   }
+// }
+
+// .cardContainer ~ .card2 {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(223, 89, 16);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(223, 89, 16, 0.413);
+//     }
+//   }
+// }
+// .cardContainer ~ .card3 {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(65, 143, 41);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(65, 143, 41, 0.44);
+//     }
+//   }
+// }
+// .cardContainer ~ .card6 {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(16, 33, 223);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(16, 33, 223, 0.478);
+//     }
+//   }
+// }
+
+// .cardContainer ~ .card5 {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(41, 104, 143);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(41, 104, 143, 0.523);
+//     }
+//   }
+// }
+// .cardContainer ~ .card4 {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(143, 41, 41);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(143, 41, 41, 0.457);
+//     }
+//   }
+// }
+
+// .cardContainer ~ .card6 {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(223, 16, 154);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(223, 16, 154, 0.479);
+//     }
+//   }
+// }
+// .cardContainer ~ .card7 {
+//   .cardIconWrapper {
+//     .cardIcon {
+//       color: rgb(138, 41, 143);
+//     }
+//   }
+
+//   .cardTextsWrapper {
+//     .cardSmallText {
+//       color: rgba(138, 41, 143, 0.437);
+//     }
+//   }
+// }

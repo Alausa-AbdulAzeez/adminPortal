@@ -1,3 +1,39 @@
 .main {
   width: 100%;
+
+  .homeMainContentWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 64px;
+
+    .cardsTopContainer {
+      display: flex;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+    .cardsBottomContainer {
+      margin-top: 64px;
+
+      .datePickerWrapper {
+        width: 200px;
+
+        .selectRange {
+          font-size: smaller;
+          font-weight: bold;
+          color: rgb(130, 128, 128);
+        }
+
+        .datePicker {
+          width: 100%;
+          padding: 5px 10px;
+        }
+      }
+
+      .bottomCardsWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+      }
+    }
+  }
 }

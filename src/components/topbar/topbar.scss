@@ -9,6 +9,22 @@
   top: 0;
   z-index: 10;
 
+  .topbarRight {
+    span {
+      font-size: 12px;
+      cursor: pointer;
+      margin-left: 20px;
+      background-color: rgba(1, 42, 68, 0.123);
+      padding: 5px 10px;
+      color: rgb(1, 42, 68);
+      border-radius: 7px;
+
+      &:hover {
+        background-color: rgba(1, 42, 68, 0.341);
+      }
+    }
+  }
+
   .topbarUserIcon {
     cursor: pointer;
     font-size: larger;
