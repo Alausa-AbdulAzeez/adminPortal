@@ -156,7 +156,7 @@ const SinglePile = () => {
       renderCell: (params) => {
         return (
           <>
-            <SinglePileActions params={params} />
+            <SinglePileActions params={params} pageType='singlePile' />
           </>
         )
       },
