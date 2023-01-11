@@ -1,11 +1,4 @@
-import {
-  faCancel,
-  faCross,
-  faDownload,
-  faEye,
-  faThumbsUp,
-  faX,
-} from '@fortawesome/free-solid-svg-icons'
+import { faEye, faThumbsUp, faX } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Tooltip } from '@mui/material'
 import { Link } from 'react-router-dom'
