@@ -1,0 +1,91 @@
+.singleClaimMain {
+  width: 100%;
+
+  .singleClaimContentWrapper {
+    width: 100%;
+    padding: 32px 64px;
+
+    .claimActionsWrapper {
+      height: 50px;
+      width: 100%;
+      background-color: var(--main-color2);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 15px;
+
+      .claimActionBtn {
+        outline: none;
+        cursor: pointer;
+        width: 100px;
+        padding: 5px;
+        background: transparent;
+        transition: all ease-in-out 0.3s;
+        font-weight: bold;
+      }
+
+      .claimActionLeft {
+        .previousBtn,
+        .nextBtn {
+          margin-right: 10px;
+          border: 1px solid var(--main-color);
+          color: var(--main-color);
+          &:hover {
+            background-color: var(--main-color);
+            border: none;
+            color: var(--main-color2);
+          }
+        }
+      }
+
+      .claimActionRight {
+        .rejectBtn {
+          margin-left: 10px;
+          border: 1.5px solid var(--red);
+          color: var(--red);
+
+          &:hover {
+            color: var(--main-color2);
+            border: none;
+            background-color: var(--red);
+          }
+        }
+        .approveClaimBtn {
+          border: 1.5px solid var(--green);
+          color: var(--green);
+
+          &:hover {
+            color: var(--main-color2);
+            border: none;
+            background-color: var(--green);
+          }
+        }
+      }
+    }
+    .claimPropertiesWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .claimProperties > ul > li {
+        font-weight: bold;
+
+        span {
+          font-weight: normal;
+          margin-left: 5px;
+          color: darkgray;
+          font-weight: 500;
+        }
+      }
+      .claimPropertiesCenter {
+        flex: 2;
+      }
+      .claimPropertiesLeft {
+        flex: 1;
+      }
+      .claimPropertiesRight {
+        width: 200px;
+      }
+    }
+  }
+}
